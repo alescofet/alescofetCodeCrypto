@@ -1,0 +1,5 @@
+node_modules
+minio/*/
+.minio.sys
+.package-lock.json
+.env

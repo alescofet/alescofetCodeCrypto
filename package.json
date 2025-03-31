@@ -1,0 +1,26 @@
+{
+  "name": "alescofet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sol": "node ./js-solana-eth/index.js",
+    "db": "node ./database/index.js",
+    "minio": "C:/Users/alexe/minio.exe server ./minio --address localhost:9009 --console-address :9091"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "minio": "^8.0.5",
+    "pg": "^8.13.3",
+    "pug": "^3.0.3",
+    "web3": "^4.16.0"
+  }
+}
